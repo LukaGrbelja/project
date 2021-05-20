@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+body{
+    background-image: url('./Components/Slike/Pozadina.jpg');
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#imePrezime{
+    float: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header{
+    text-align: center;
+    color: blueviolet;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-width: 6px;
+    margin-bottom: 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#hSlika{
+    width: 40%;
 }
 
-.App-link {
-  color: #61dafb;
+#footer{
+    background-color: cornflowerblue;
+    height: 50px;
+    font-size: small;
+    padding: 10px;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sadrzaj{
+    background-color:rgb(10, 10, 10);
+    margin-left: 20%;
+    margin-right: 20%;
+    border: blueviolet;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+.filmovi{
+    display: inline-block;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.dijelovi{
+    width: 100%;
+}
+
+.orgs{
+    display: inline-block;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.orgimg{
+    width: 100%;
+    height: 180px;
+}
+
+.platforme{
+    display: inline-block;
+    width: 10%;
+    margin-left: 10%;
+}
+
+.logo{
+    width: 100%;
+}
+
+#trenutno{
+    border-style: solid;
+    border-radius: 1%;
+}
+
+.naslovna{
+    width: 100%;
+}
+
+.likovi{
+    background-color:rgb(10, 10, 10);
+    margin-left: 15%;
+    margin-right: 20%;
+    border: steelblue;
+    border-style: double;
+    border-radius: 20px;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+
+.slikaLikovi{
+    border-style: solid;
+    width: 59%;
+    display: inline-block;
+}
+
+.detaljiLikovi{
+    width: 40%;
+    display: inline-block;
+}
+
+.aktivno,.skriveno{
+    width: 20%;
+}
+
+.aktivno{
+    display: inline-block;
+    align-self: center;
+    width: 50%;
+}
+
+.skriveno{
+    display: none;
+}
+
+#slideshow{
+    text-align: center;
 }
